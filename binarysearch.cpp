@@ -56,7 +56,15 @@ void display ()
     cout << "\n=================================\n";
     cout << "  Masukan elemen yang ingin dicari : ";
     cin >> x;
-    
+    for (int j= 0; j < nPanjang; j++)
+    {
+        cout << element [j];
+        if ( j< nPanjang - 1)
+        {
+            cout <<  "-->";
+        }
+    }
+    cout << endl;
 } 
 
 
