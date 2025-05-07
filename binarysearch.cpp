@@ -46,6 +46,17 @@ void bubbleSortArray()
             }
         }
         pass++;
-    } while (pass <= nPanjang - 1);
-    
+    } while (pass <= nPanjang - 1);   
 }
+
+void display ()
+{
+    cout << "\n=================================\n";
+    cout << "       Pencarian Binary Search       ";
+    cout << "\n=================================\n";
+    cout << "  Masukan elemen yang ingin dicari : ";
+    cin >> x;
+    
+} 
+
+
